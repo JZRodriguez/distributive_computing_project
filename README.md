@@ -1,4 +1,4 @@
-# distributive_computing_project
+# Reviews in Amazon
 
 ## Team_Members
 * Mariela Arias Rojo
