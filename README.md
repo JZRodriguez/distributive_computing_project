@@ -1,4 +1,4 @@
-# Reviews in Amazon
+# Distibutive Analysis of the Graphics Processing Unit (GPU) Market
 
 ## Team_Members
 * Mariela Arias Rojo
@@ -13,7 +13,7 @@
 
 
 ## Introduction
-Amazon reviews are a way to connect with users to help other users to know the quality of a certain product or seller. With this, Amazon's shop can figure out what are the best selling items in the store, either being classified in different categories or general, and recommend them to user that are looking for an item on a specific categorie. Since Amazon's shop is one of the biggest shopping platforms, it's important to understand how the recommendations work.
+
 
 ![Alt text](https://github.com/JZRodriguez/distributive_computing_project/blob/main/amazon-reviews-smartphone.jpg 'Reviews')
 
