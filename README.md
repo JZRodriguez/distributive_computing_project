@@ -43,6 +43,7 @@ The main instruments used are:
 * Python 3
 * Linux Ubuntu 64-bit
 
+
 Libraries from Python:
 * Numpy
 * Pandas
