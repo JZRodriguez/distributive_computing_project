@@ -2,9 +2,9 @@
 
 
 ## Team_Members
-* Mariela Arias Rojo
-* Ángel Flores
-* Jadiel Zuñiga Rodriguez
+* [Mariela Arias Rojo](https://github.com/marielaAriass)
+* [Ángel Flores Ayala](https://github.com/AngelFA04)
+* [Jadiel Zuñiga Rodriguez](https://github.com/JZRodriguez)
 
 
 ## Table of Contents
@@ -16,7 +16,7 @@
 
 ## Introduction
 #### What?
-The aim of this project is to get an insight of the current state of the Graphics Processing Units market giving the current global situation, including the global pandemic and the shortage on raw materials by using distributive computing. 
+The aim of this project is to get an insight of the current state of the [Graphics Processing Units](https://www.hellotech.com/blog/whats-a-gpu-what-gpu-do-you-have) market giving the current global situation, including the global pandemic and the shortage on raw materials by using distributive computing. 
 The insight is specifically in the GPU model NVIDIA RTX 3060 reference edition
 
 ![GPU](gpu.jpg)
@@ -49,3 +49,8 @@ Libraries from Python:
 * Pandas
 * Matplotlib
 * Scrapy
+
+
+## References
+What’s a GPU? Everything You Need to Know. (2021, 12 abril). The Plug - HelloTech. Recuperado 26 de abril de 2022, de https://www.hellotech.com/blog/whats-a-gpu-what-gpu-do-you-have
+
