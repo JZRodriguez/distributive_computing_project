@@ -45,10 +45,10 @@ The main instruments used are:
 
 
 Libraries from Python:
-* Numpy
-* Pandas
-* Matplotlib
-* Scrapy
+* [Numpy](https://numpy.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Matplotlib](https://matplotlib.org/)
+* [Scrapy](https://scrapy.org/)
 
 
 ## References
