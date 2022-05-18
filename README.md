@@ -40,10 +40,12 @@ Develop different servers to analyze and process the data given
 
 
 ## Development
-![Arquitecture](Diagram.jpg)
-The image above represents the arquitecture of the system used for this project
 
-The instructions to use the spider of this project are [here](https://github.com/JZRodriguez/distributive_computing_project/blob/main/gpu_scraper/README.md)
+![Arquitecture](Diagram.jpg)
+
+The image above represents the arquitecture of the system used for this project.
+
+The instructions to use the spider of this project are [here](https://github.com/JZRodriguez/distributive_computing_project/blob/main/gpu_scraper/README.md).
 
 
 ## Tools
