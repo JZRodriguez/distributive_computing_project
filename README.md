@@ -11,6 +11,7 @@
 * [Team_Members](#Team_Members)
 * [Introduction](#Introduction)
 * [Objectives](#Objectives)
+* [Development](#Development)
 * [Tools](#Tools)
 
 
@@ -38,6 +39,13 @@ Develop different servers to analyze and process the data given
 * Server to display data : By graphing the data
 
 
+## Development
+![Arquitecture](Diagram.jpg)
+The image above represents the arquitecture of the system used for this project
+
+The instructions to use the spider of this project are [here](https://github.com/JZRodriguez/distributive_computing_project/blob/main/gpu_scraper/README.md)
+
+
 ## Tools
 The main instruments used are:
 * Python 3
@@ -49,6 +57,7 @@ Libraries from Python:
 * [Pandas](https://pandas.pydata.org/)
 * [Matplotlib](https://matplotlib.org/)
 * [Scrapy](https://scrapy.org/)
+* [SQLAlchemy](https://www.sqlalchemy.org/)
 
 
 ## References
