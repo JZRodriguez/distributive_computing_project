@@ -47,6 +47,8 @@ The image above represents the arquitecture of the system used for this project.
 
 The instructions to use the spider of this project are [here](https://github.com/JZRodriguez/distributive_computing_project/blob/main/gpu_scraper/README.md).
 
+The average download time is 1.22s with a standard deviation of 0.8, getting a latency of 2.02s (needs more testing)
+
 
 ## Tools
 The main instruments used are:
