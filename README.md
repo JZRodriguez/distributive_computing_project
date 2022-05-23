@@ -63,6 +63,42 @@ Libraries from Python:
 * [Scrapy](https://scrapy.org/)
 * [SQLAlchemy](https://www.sqlalchemy.org/)
 
+## How to use it?
+To use this project first it is necessary to have all the dependencies, you can do it running this command:
+```sh
+pip3 install -r requirements.txt
+```
+Also, it is important to create a file inside the `database` folder that stores the database credentials and the csv folder. The file should be named `config.ini`
+
+```sh
+cd database
+touch config.ini
+nano config.ini
+```
+Once the editor is open, paste this template, but using your own variables
+```
+[POSTGRES]
+USER=
+PASSWORD=
+HOST=
+PORT=
+DATABASE_NAME=
+
+[CSV]
+FOLDER=/your-folder-location
+```
+
+
+Then you have to run the spider in order to get the data necessary.
+```sh
+cd gpu_scraper
+scrapy crawl gpus-spider -o gpus.csv
+```
+
+Finally you have to run the script that handle the upload of all the data into the database.
+```sh
+python database/load.py
+```
 
 ## References
 What’s a GPU? Everything You Need to Know. (2021, 12 abril). The Plug - HelloTech. Recuperado 26 de abril de 2022, de https://www.hellotech.com/blog/whats-a-gpu-what-gpu-do-you-have
