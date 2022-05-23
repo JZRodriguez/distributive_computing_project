@@ -24,7 +24,6 @@ def read_csv(file_name) -> pd.DataFrame:
     """
     Reads the csv file and returns a dataframe.
     """
-    breakpoint()
     return pd.read_csv(file_name)
 
 def load_in_database(df: pd.DataFrame, table_name: str, engine: create_engine) -> None:
@@ -33,6 +32,7 @@ def load_in_database(df: pd.DataFrame, table_name: str, engine: create_engine) -
     """
     try:
         df.to_sql(table_name, engine, if_exists='append', index=False)
+        print("Data uploaded successfully.")
     except IntegrityError as e:
         print(e)
         print(f'{table_name} already exists. Skipping...')
@@ -49,12 +49,6 @@ def main():
     """
     Main function.
     """
-    breakpoint()
-    # # Get the path of the script.
-    # script_path = os.path.dirname(os.path.realpath(__file__))
-
-    # # Get the path of the csv files.
-    # csv_path = os.path.join(script_path, 'csv')
 
     # Get the path of the csv files.
     csv_files = [os.path.join(CSV_FOLDER, f) for f in os.listdir(CSV_FOLDER) if f.endswith('.csv')]

@@ -92,12 +92,13 @@ FOLDER=/your-folder-location
 Then you have to run the spider in order to get the data necessary.
 ```sh
 cd gpu_scraper
-scrapy crawl gpus-spider -o gpus.csv
+python3 -m scrapy crawl gpus-spider -o gpus.csv
 ```
 
 Finally you have to run the script that handle the upload of all the data into the database.
 ```sh
-python database/load.py
+cd database
+python3 load.py
 ```
 
 ## References
