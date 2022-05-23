@@ -13,6 +13,8 @@
 * [Objectives](#Objectives)
 * [Development](#Development)
 * [Tools](#Tools)
+* [How_to_use_it?](#How_to_use_it?)
+* [References](#References)
 
 
 ## Introduction
@@ -63,7 +65,7 @@ Libraries from Python:
 * [Scrapy](https://scrapy.org/)
 * [SQLAlchemy](https://www.sqlalchemy.org/)
 
-## How to use it?
+## How_to_use_it?
 To use this project first it is necessary to have all the dependencies, you can do it running this command:
 ```sh
 pip3 install -r requirements.txt
