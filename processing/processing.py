@@ -35,9 +35,9 @@ def connect() :
             X.append(datiteme)
 
         ax.plot(X, Y)
-        plt.savefig("/data/team3/gpus.png")
+        plt.savefig("/data/gpus.png")
         
-        process = subprocess.Popen(['scp','/data/team3/gpus.png','team3@10.99.1.138:/home/jzuniga/public_html/static/'],stdout = subprocess.PIPE, stderr = subprocess.PIPE)
+        process = subprocess.Popen(['scp','/data/gpus.png','jzuniga@10.99.1.138:/home/jzuniga/public_html/static/'],stdout = subprocess.PIPE, stderr = subprocess.PIPE)
         stdout, stderr = process.communicate()
         print(stdout, stderr)
 
