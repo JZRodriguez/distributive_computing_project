@@ -28,7 +28,7 @@ def connect() :
         ax = fig.add_subplot(111)
 
         for row in records :
-            Y.append(row[1])
+            Y.append(float(row[1].replace('$', '').replace(',', '')))
             date = datetime.date()
             time = datetime.time()
             datiteme = date + time
