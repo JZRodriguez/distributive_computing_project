@@ -28,11 +28,8 @@ def connect() :
         ax = fig.add_subplot(111)
 
         for row in records :
-            Y.append(float(row[1].replace('$', '').replace(',', '')))
-            date = datetime.date()
-            time = datetime.time()
-            datiteme = date + time
-            X.append(datiteme)
+            Y.append(row[1])
+            X.append(row[3])
 
         ax.plot(X, Y)
         plt.savefig("/data/gpus.png")
